@@ -67,6 +67,7 @@ python manage.py csu
 Для тестирования используйте команду
 ```
 coverage run --source='.' manage.py test
+```
 coverage report
 ```
 
