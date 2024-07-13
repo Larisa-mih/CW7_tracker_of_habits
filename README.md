@@ -23,13 +23,16 @@ pip install -r requirements.txt
 Для работы отправки сообщений в Telegram вам понадобится Токен Telegram Bot.
 ```
 # PostgreSql
-NAME=
-USER=
-PASSWORD=
-HOST=
-PORT=
+POSTGRES_DB=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_HOST=
+POSTGRES_PORT=
+
+
 # Telegram
 TOKEN_BOT=
+
 REDIS_URL=
 ```
 
@@ -76,3 +79,23 @@ coverage report
 ```
 http://localhost:8000/docs/
 http://localhost:8000/redoc/
+
+## Deploy
+
+Для развертывания проекта после клонирования и создания файла .env вам необходимо установить docker и docker-compose.
+Затем вы можете использовать команды
+```
+docker-compose build
+docker-compose up
+```
+
+или
+```
+docker-compose up -d —build
+```
+
+- перейдите по адресу: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+## Contacts
+
+Ссылка на репозиторий: [https://github.com/Larisa-mih](https://github.com/Larisa-mih)
