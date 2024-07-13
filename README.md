@@ -79,8 +79,10 @@ coverage report
 ```
 http://localhost:8000/docs/
 http://localhost:8000/redoc/
+```
 
 ## Deploy
+
 
 Для развертывания проекта после клонирования и создания файла .env вам необходимо установить docker и docker-compose.
 Затем вы можете использовать команды
